@@ -1,6 +1,11 @@
 # monkeyDugiWiki
 개발 위키
 ```java
+// 1. 멜론의 가수, 제목, 순위와 youtubeAPI의 videoId, image를 List<requestDto>에 담는다.
+// 2. loob를 돌며, Dto에서 toEntity를 만들어 Entity를 생성하고 save 한다.
+// 3. 끝!
+
+
 package apiTest;
 
 import org.json.JSONArray;
